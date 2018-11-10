@@ -40,6 +40,12 @@ exports.default = App;
 
 var _hyperapp = __webpack_require__(0);
 
+var _Header = __webpack_require__(4);
+
+var _Header2 = _interopRequireDefault(_Header);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
 function App(_ref) {
   var state = _ref.state,
       actions = _ref.actions;
@@ -47,29 +53,7 @@ function App(_ref) {
   return (0, _hyperapp.h)(
     'div',
     { 'class': 'app' },
-    (0, _hyperapp.h)(
-      'div',
-      null,
-      (0, _hyperapp.h)(
-        'h1',
-        null,
-        'Hyperapp Starter Kit'
-      ),
-      (0, _hyperapp.h)(
-        'a',
-        { href: 'http://www.codingphase.com/', target: 'new' },
-        ' by CodingPhase.com'
-      )
-    ),
-    (0, _hyperapp.h)(
-      'div',
-      { className: 'stars' },
-      (0, _hyperapp.h)(
-        'a',
-        { className: 'github-button', href: 'https://github.com/codingphasedotcom/hyperapp-starterkit', 'data-size': 'large', 'data-show-count': 'true', 'aria-label': 'Star codingphasedotcom/hyperapp-starterkit on GitHub' },
-        'Star'
-      )
-    )
+    (0, _hyperapp.h)(_Header2.default, { state: state, actions: actions })
   );
 }
 // <Header state={state} actions={actions}/>
@@ -91,6 +75,33 @@ var globalState = exports.globalState = {
 
 /***/ }),
 /* 4 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = Header;
+
+var _hyperapp = __webpack_require__(0);
+
+function Header(_ref) {
+  var state = _ref.state,
+      actions = _ref.actions;
+
+  return (0, _hyperapp.h)(
+    'header',
+    null,
+    'Header component'
+  );
+}
+// <Header state={state} actions={actions}/>
+// <Button state={state} actions={actions}/>
+
+/***/ }),
+/* 5 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -120,9 +131,9 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
       var name = _ref.name,
           data = _ref.data;
 
-      console.group("Action Info");
-      console.log("Name:", name);
-      console.log("Data:", data);
+      console.group('Action Info');
+      console.log('Name:', name);
+      console.log('Data:', data);
       console.groupEnd();
     },
     load: function load(state, actions) {
@@ -132,4 +143,4 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 });
 
 /***/ })
-],[4]);
+],[5]);
