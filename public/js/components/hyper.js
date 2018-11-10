@@ -158,30 +158,33 @@ function TopImg(_ref) {
 
   return (0, _hyperapp.h)(
     "section",
-    null,
-    "testing",
+    { "class": "TopImg" },
     (0, _hyperapp.h)(
-      "h5",
-      null,
-      "Welcome"
-    ),
-    (0, _hyperapp.h)(
-      "h1",
-      null,
-      "Vegan Italian"
+      "div",
+      { "class": "title" },
+      (0, _hyperapp.h)(
+        "h5",
+        null,
+        "Welcome"
+      ),
+      (0, _hyperapp.h)(
+        "h1",
+        null,
+        "Vegan Italian"
+      )
     ),
     (0, _hyperapp.h)(
       "div",
       { "class": "contact-info" },
       (0, _hyperapp.h)(
         "div",
-        null,
+        { "class": "booking" },
         "Book Table Directly"
       ),
       (0, _hyperapp.h)(
-        "h2",
+        "h3",
         null,
-        "(317)222-2222"
+        "(317) - 222 - 2222"
       ),
       (0, _hyperapp.h)(
         "div",

@@ -1,9 +1,16 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700');
+$textFont: 'Open Sans Condensed', sans-serif;
+$displayFont: 'Cinzel', serif;
+
+@import url('https://fonts.googleapis.com/css?family=Cinzel:900|Open+Sans+Condensed:700');
+
 @import 'reset';
+@import 'Header';
+@import 'TopImg';
 
 body {
-  font-family: 'Roboto', sans-serif;
-  // background: purple;
+  font-family: $textFont;
+  // font-family: 'Open Sans Condensed', sans-serif;
+  //background: purple;
 }
 
 h1 {
