@@ -1,5 +1,5 @@
-@import url( 'https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700');
-@import "reset";
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700');
+@import 'reset';
 
 body {
   font-family: 'Roboto', sans-serif;
@@ -46,7 +46,7 @@ h1 {
   }
 
   .version-num {
-    background: #E8E8E8;
+    background: #e8e8e8;
     border-radius: 4px;
     padding: 7px 15px;
     display: inline-block;
@@ -56,11 +56,11 @@ h1 {
 
   a {
     text-decoration: none;
-    color: #30395C;
+    color: #30395c;
     transition: all 0.3s ease-in-out;
 
     &:hover {
-      color: #43D4D6;
+      color: #43d4d6;
     }
   }
 }
