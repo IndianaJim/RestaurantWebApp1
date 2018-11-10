@@ -1,9 +1,8 @@
-$textFont: 'Open Sans Condensed', sans-serif;
-$displayFont: 'Cinzel', serif;
-
 @import url('https://fonts.googleapis.com/css?family=Cinzel:900|Open+Sans+Condensed:700');
-
+@import 'variables';
 @import 'reset';
+@import 'grid';
+
 @import 'Header';
 @import 'TopImg';
 

@@ -101,36 +101,40 @@ function Header(_ref) {
     null,
     (0, _hyperapp.h)(
       "div",
-      { "class": "logo" },
-      "Logo"
-    ),
-    (0, _hyperapp.h)(
-      "nav",
-      null,
+      { "class": "container" },
       (0, _hyperapp.h)(
-        "a",
-        { href: "#" },
-        "Menu"
+        "div",
+        { "class": "logo" },
+        "Logo"
       ),
       (0, _hyperapp.h)(
-        "a",
-        { href: "#" },
-        "Party Platters"
-      ),
-      (0, _hyperapp.h)(
-        "a",
-        { href: "#" },
-        "Locations"
-      ),
-      (0, _hyperapp.h)(
-        "a",
-        { href: "#" },
-        "Rewards"
-      ),
-      (0, _hyperapp.h)(
-        "a",
-        { href: "#" },
-        "Reservations"
+        "nav",
+        null,
+        (0, _hyperapp.h)(
+          "a",
+          { href: "#" },
+          "Menu"
+        ),
+        (0, _hyperapp.h)(
+          "a",
+          { href: "#" },
+          "Party Platters"
+        ),
+        (0, _hyperapp.h)(
+          "a",
+          { href: "#" },
+          "Locations"
+        ),
+        (0, _hyperapp.h)(
+          "a",
+          { href: "#" },
+          "Rewards"
+        ),
+        (0, _hyperapp.h)(
+          "a",
+          { href: "#" },
+          "Reservations"
+        )
       )
     )
   );
@@ -161,47 +165,51 @@ function TopImg(_ref) {
     { "class": "TopImg" },
     (0, _hyperapp.h)(
       "div",
-      { "class": "title" },
-      (0, _hyperapp.h)(
-        "h5",
-        null,
-        "Welcome"
-      ),
-      (0, _hyperapp.h)(
-        "h1",
-        null,
-        "Vegan Italian"
-      )
-    ),
-    (0, _hyperapp.h)(
-      "div",
-      { "class": "contact-info" },
+      { "class": "container" },
       (0, _hyperapp.h)(
         "div",
-        { "class": "booking" },
-        "Book Table Directly"
-      ),
-      (0, _hyperapp.h)(
-        "h3",
-        null,
-        "(317) - 222 - 2222"
+        { "class": "title" },
+        (0, _hyperapp.h)(
+          "h5",
+          null,
+          "Welcome"
+        ),
+        (0, _hyperapp.h)(
+          "h1",
+          null,
+          "Vegan Italian"
+        )
       ),
       (0, _hyperapp.h)(
         "div",
-        { "class": "hours" },
-        "Opening Hours ",
+        { "class": "contact-info" },
         (0, _hyperapp.h)(
-          "strong",
-          null,
-          "Mon - Fri: "
+          "div",
+          { "class": "booking" },
+          "Book Table Directly"
         ),
-        "9a - 9pm ",
         (0, _hyperapp.h)(
-          "strong",
+          "h3",
           null,
-          "Weekend: "
+          "(317) - 222 - 2222"
         ),
-        "9a - 11pm"
+        (0, _hyperapp.h)(
+          "div",
+          { "class": "hours" },
+          "Opening Hours ",
+          (0, _hyperapp.h)(
+            "strong",
+            null,
+            "Mon - Fri: "
+          ),
+          "9a - 9pm ",
+          (0, _hyperapp.h)(
+            "strong",
+            null,
+            "Weekend: "
+          ),
+          "9a - 11pm"
+        )
       )
     )
   );
