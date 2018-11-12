@@ -190,12 +190,18 @@ function OurStory(_ref) {
           (0, _hyperapp.h)(
             "p",
             null,
-            "Lorem ipsum dolor amet seitan raw denim offal fam intelligentsia distillery. Hella coloring book fixie tumblr chillwave banjo cronut portland typewriter you probably haven't heard of them air plant. Copper mug vinyl direct trade chartreuse pop-up. 3 wolf moon normcore portland waistcoat letterpress vexillologist. Yr kogi microdosing, chillwave vinyl readymade brunch thundercats gentrify kickstarter unicorn. Actually irony humblebrag chambray retro, DIY bushwick chillwave hoodie austin letterpress tattooed mustache. Snackwave salvia synth, hella pok pok farm-to-table direct trade."
+            "Lorem ipsum dolor amet seitan raw denim offal fam intelligentsia distillery. Hella coloring book fixie tumblr chillwave banjo cronut portland typewriter you probably haven't heard of them air plant. Copper mug vinyl direct trade chartreuse pop-up. 3 wolf moon normcore portland waistcoat letterpress vexillologist."
           ),
           (0, _hyperapp.h)(
             "div",
             { "class": "quote" },
-            "\"The best vegan italian around!\" - Thomas Plantster"
+            "\"The best vegan italian around!\" -",
+            ' ',
+            (0, _hyperapp.h)(
+              "strong",
+              null,
+              "Thomas Plantster"
+            )
           ),
           (0, _hyperapp.h)(
             "a",
@@ -206,7 +212,7 @@ function OurStory(_ref) {
         (0, _hyperapp.h)(
           "div",
           { "class": "col-md-6" },
-          (0, _hyperapp.h)("img", { src: "" })
+          (0, _hyperapp.h)("div", { "class": "video-img" })
         )
       )
     )
