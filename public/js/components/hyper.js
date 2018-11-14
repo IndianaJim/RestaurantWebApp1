@@ -262,21 +262,24 @@ function SpecialMenu(_ref) {
       ),
       (0, _hyperapp.h)(
         "div",
-        { "class": "row" },
+        { "class": "row boxes" },
         (0, _hyperapp.h)(
           "div",
           { "class": "col-md-4" },
           (0, _hyperapp.h)(
             "div",
             { "class": "box" },
-            (0, _hyperapp.h)("div", { "class": "box-img" }),
             (0, _hyperapp.h)(
               "div",
-              { "class": "price-circle" },
-              "$25"
+              { "class": "box-img" },
+              (0, _hyperapp.h)(
+                "div",
+                { "class": "price-circle" },
+                "$25"
+              )
             ),
             (0, _hyperapp.h)(
-              "span",
+              "p",
               { "class": "title" },
               "Super Vegan BBQ No Meat"
             ),
@@ -287,14 +290,65 @@ function SpecialMenu(_ref) {
             )
           )
         ),
-        "/>",
-        (0, _hyperapp.h)("div", { "class": "col-md-4" }),
-        (0, _hyperapp.h)("div", { "class": "col-md-4" }),
         (0, _hyperapp.h)(
-          "a",
-          { href: "#" },
-          "View Full Menu"
+          "div",
+          { "class": "col-md-4" },
+          (0, _hyperapp.h)(
+            "div",
+            { "class": "box" },
+            (0, _hyperapp.h)(
+              "div",
+              { "class": "box-img" },
+              (0, _hyperapp.h)(
+                "div",
+                { "class": "price-circle" },
+                "$25"
+              )
+            ),
+            (0, _hyperapp.h)(
+              "p",
+              { "class": "title" },
+              "Super Vegan BBQ No Meat"
+            ),
+            (0, _hyperapp.h)(
+              "p",
+              { "class": "details" },
+              "Fried Veggies, French Fries, Veggies, and more Veggies"
+            )
+          )
+        ),
+        (0, _hyperapp.h)(
+          "div",
+          { "class": "col-md-4" },
+          (0, _hyperapp.h)(
+            "div",
+            { "class": "box" },
+            (0, _hyperapp.h)(
+              "div",
+              { "class": "box-img" },
+              (0, _hyperapp.h)(
+                "div",
+                { "class": "price-circle" },
+                "$25"
+              )
+            ),
+            (0, _hyperapp.h)(
+              "p",
+              { "class": "title" },
+              "Super Vegan BBQ No Meat"
+            ),
+            (0, _hyperapp.h)(
+              "p",
+              { "class": "details" },
+              "Fried Veggies, French Fries, Veggies, and more Veggies"
+            )
+          )
         )
+      ),
+      (0, _hyperapp.h)(
+        "a",
+        { href: "#", "class": "link" },
+        "View Full Menu"
       )
     )
   );
