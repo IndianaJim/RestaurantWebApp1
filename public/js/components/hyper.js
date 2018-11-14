@@ -263,7 +263,31 @@ function SpecialMenu(_ref) {
       (0, _hyperapp.h)(
         "div",
         { "class": "row" },
-        (0, _hyperapp.h)("div", { "class": "col-md-4" }),
+        (0, _hyperapp.h)(
+          "div",
+          { "class": "col-md-4" },
+          (0, _hyperapp.h)(
+            "div",
+            { "class": "box" },
+            (0, _hyperapp.h)("div", { "class": "box-img" }),
+            (0, _hyperapp.h)(
+              "div",
+              { "class": "price-circle" },
+              "$25"
+            ),
+            (0, _hyperapp.h)(
+              "span",
+              { "class": "title" },
+              "Super Vegan BBQ No Meat"
+            ),
+            (0, _hyperapp.h)(
+              "p",
+              { "class": "details" },
+              "Fried Veggies, French Fries, Veggies, and more Veggies"
+            )
+          )
+        ),
+        "/>",
         (0, _hyperapp.h)("div", { "class": "col-md-4" }),
         (0, _hyperapp.h)("div", { "class": "col-md-4" }),
         (0, _hyperapp.h)(

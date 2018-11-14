@@ -1,2 +1,38 @@
 #SpecialMenu {
+  padding: 100px 0;
+  background-image: url('https://st2.depositphotos.com/1888461/7666/i/950/depositphotos_76669773-stock-photo-white-grey-background-in-soft.jpg');
+  background-position: center;
+
+  h5 {
+    text-align: center;
+    color: black;
+  }
+  h2 {
+    text-align: center;
+  }
+  .box {
+    background: white;
+    padding: 20px;
+    .price-circle {
+      background: red;
+      border: 10px solid rgba(255, 255, 255, 0.7);
+      height: 100px;
+      width: 100px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .title {
+      font-weight: 600;
+      font-size: 0.9rem;
+      text-align: center;
+    }
+    .details {
+      font-weight: 300;
+      font-size: 0.8rem;
+      text-align: center;
+      line-height: 1.5;
+    }
+  }
 }
