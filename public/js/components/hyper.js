@@ -391,7 +391,9 @@ function TopImg(_ref) {
         (0, _hyperapp.h)(
           "h1",
           null,
-          "Vegan Italian"
+          "Vegan Italian",
+          (0, _hyperapp.h)("br", null),
+          "Restaurant"
         )
       ),
       (0, _hyperapp.h)(
@@ -399,30 +401,34 @@ function TopImg(_ref) {
         { "class": "contact-info" },
         (0, _hyperapp.h)(
           "div",
-          { "class": "booking" },
-          "Book Table Directly"
-        ),
-        (0, _hyperapp.h)(
-          "h3",
-          null,
-          "(317) - 222 - 2222"
-        ),
-        (0, _hyperapp.h)(
-          "div",
-          { "class": "hours" },
-          "Opening Hours ",
+          { "class": "container" },
           (0, _hyperapp.h)(
-            "strong",
-            null,
-            "Mon - Fri: "
+            "div",
+            { "class": "booking" },
+            "Book Table Directly"
           ),
-          "9a - 9pm ",
           (0, _hyperapp.h)(
-            "strong",
+            "h3",
             null,
-            "Weekend: "
+            "(317) - 222 - 2222"
           ),
-          "9a - 11pm"
+          (0, _hyperapp.h)(
+            "div",
+            { "class": "hours" },
+            "Opening Hours ",
+            (0, _hyperapp.h)(
+              "strong",
+              null,
+              "Mon - Fri: "
+            ),
+            "9a - 9pm ",
+            (0, _hyperapp.h)(
+              "strong",
+              null,
+              "Weekend: "
+            ),
+            "9a - 11pm"
+          )
         )
       )
     )

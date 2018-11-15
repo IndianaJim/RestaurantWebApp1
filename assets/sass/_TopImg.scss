@@ -1,7 +1,8 @@
 #TopImg {
   position: relative;
   background: black;
-  height: 500px;
+  min-height: 500px;
+  height: 100vh;
   color: white;
   background-image: linear-gradient(135deg, rgba(0, 0, 0, 0.2) 0, #000 100%),
     url('http://finedininglovers.cdn.crosscast-system.com/BlogPost/l_3568_cannelloni.jpg');
@@ -16,7 +17,7 @@
       text-transform: uppercase;
       color: white;
       font-weight: 300;
-      font-size: 4rem;
+      font-size: 6rem;
     }
     h5 {
       text-transform: uppercase;
@@ -25,19 +26,25 @@
     }
   }
   .contact-info {
+    width: 100%;
+    position: absolute;
+    bottom: 50px;
+    right: 0;
     text-align: right;
-    color: white;
+    color: gray;
     font-size: 0.8rem;
     line-height: 1.5rem;
     strong {
       font-weight: 200;
+      color: white;
     }
     .booking {
       margin-bottom: 10px;
     }
     h3 {
-      font-size: 1.4rem;
+      font-size: 1.3rem;
       margin-bottom: 20px;
+      color: white;
     }
   }
 }
