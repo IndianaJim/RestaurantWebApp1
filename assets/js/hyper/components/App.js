@@ -3,7 +3,7 @@ import Header from './Header.js';
 import TopImg from './TopImg.js';
 import OurStory from './OurStory.js';
 import SpecialMenu from './SpecialMenu.js';
-import SpecialMenu from './RandomQuote.js';
+import RandomQuote from './RandomQuote.js';
 
 export default function App({ state, actions }) {
   return (
