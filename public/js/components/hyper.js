@@ -40,25 +40,29 @@ exports.default = App;
 
 var _hyperapp = __webpack_require__(0);
 
-var _Header = __webpack_require__(4);
+var _Header = __webpack_require__(5);
 
 var _Header2 = _interopRequireDefault(_Header);
 
-var _TopImg = __webpack_require__(8);
+var _TopImg = __webpack_require__(9);
 
 var _TopImg2 = _interopRequireDefault(_TopImg);
 
-var _OurStory = __webpack_require__(5);
+var _OurStory = __webpack_require__(6);
 
 var _OurStory2 = _interopRequireDefault(_OurStory);
 
-var _SpecialMenu = __webpack_require__(7);
+var _SpecialMenu = __webpack_require__(8);
 
 var _SpecialMenu2 = _interopRequireDefault(_SpecialMenu);
 
-var _RandomQuote = __webpack_require__(6);
+var _RandomQuote = __webpack_require__(7);
 
 var _RandomQuote2 = _interopRequireDefault(_RandomQuote);
+
+var _ContactUs = __webpack_require__(4);
+
+var _ContactUs2 = _interopRequireDefault(_ContactUs);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -73,7 +77,8 @@ function App(_ref) {
     (0, _hyperapp.h)(_TopImg2.default, { state: state, actions: actions }),
     (0, _hyperapp.h)(_OurStory2.default, { state: state, actions: actions }),
     (0, _hyperapp.h)(_SpecialMenu2.default, { state: state, actions: actions }),
-    (0, _hyperapp.h)(_RandomQuote2.default, { state: state, actions: actions })
+    (0, _hyperapp.h)(_RandomQuote2.default, { state: state, actions: actions }),
+    (0, _hyperapp.h)(_ContactUs2.default, { state: state, actions: actions })
   );
 }
 
@@ -93,6 +98,136 @@ var globalState = exports.globalState = {
 
 /***/ }),
 /* 4 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = ContactUs;
+
+var _hyperapp = __webpack_require__(0);
+
+function ContactUs(_ref) {
+  var state = _ref.state,
+      actions = _ref.actions;
+
+  return (0, _hyperapp.h)(
+    "section",
+    { id: "ContactUs" },
+    (0, _hyperapp.h)(
+      "div",
+      { "class": "container" },
+      (0, _hyperapp.h)(
+        "h5",
+        { "class": "comp-title" },
+        "Special Menu"
+      ),
+      (0, _hyperapp.h)(
+        "h2",
+        null,
+        "Delicious Flavor of Autumn"
+      ),
+      (0, _hyperapp.h)(
+        "div",
+        { "class": "row boxes" },
+        (0, _hyperapp.h)(
+          "div",
+          { "class": "col-md-4" },
+          (0, _hyperapp.h)(
+            "div",
+            { "class": "box" },
+            (0, _hyperapp.h)(
+              "div",
+              { "class": "box-img" },
+              (0, _hyperapp.h)(
+                "div",
+                { "class": "price-circle" },
+                "$25"
+              )
+            ),
+            (0, _hyperapp.h)(
+              "p",
+              { "class": "title" },
+              "Super Vegan BBQ No Meat"
+            ),
+            (0, _hyperapp.h)(
+              "p",
+              { "class": "details" },
+              "Fried Veggies, French Fries, Veggies, and more Veggies"
+            )
+          )
+        ),
+        (0, _hyperapp.h)(
+          "div",
+          { "class": "col-md-4" },
+          (0, _hyperapp.h)(
+            "div",
+            { "class": "box" },
+            (0, _hyperapp.h)(
+              "div",
+              { "class": "box-img" },
+              (0, _hyperapp.h)(
+                "div",
+                { "class": "price-circle" },
+                "$25"
+              )
+            ),
+            (0, _hyperapp.h)(
+              "p",
+              { "class": "title" },
+              "Super Vegan BBQ No Meat"
+            ),
+            (0, _hyperapp.h)(
+              "p",
+              { "class": "details" },
+              "Fried Veggies, French Fries, Veggies, and more Veggies"
+            )
+          )
+        ),
+        (0, _hyperapp.h)(
+          "div",
+          { "class": "col-md-4" },
+          (0, _hyperapp.h)(
+            "div",
+            { "class": "box" },
+            (0, _hyperapp.h)(
+              "div",
+              { "class": "box-img" },
+              (0, _hyperapp.h)(
+                "div",
+                { "class": "price-circle" },
+                "$25"
+              )
+            ),
+            (0, _hyperapp.h)(
+              "p",
+              { "class": "title" },
+              "Super Vegan BBQ No Meat"
+            ),
+            (0, _hyperapp.h)(
+              "p",
+              { "class": "details" },
+              "Fried Veggies, French Fries, Veggies, and more Veggies"
+            )
+          )
+        )
+      ),
+      (0, _hyperapp.h)(
+        "a",
+        { href: "#", "class": "link" },
+        "View Full Menu"
+      )
+    )
+  );
+}
+// <Header state={state} actions={actions}/>
+// <Button state={state} actions={actions}/>
+
+/***/ }),
+/* 5 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -156,7 +291,7 @@ function Header(_ref) {
 // <Button state={state} actions={actions}/>
 
 /***/ }),
-/* 5 */
+/* 6 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -230,7 +365,7 @@ function OurStory(_ref) {
 // <Button state={state} actions={actions}/>
 
 /***/ }),
-/* 6 */
+/* 7 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -268,7 +403,7 @@ function RandomQuote(_ref) {
 }
 
 /***/ }),
-/* 7 */
+/* 8 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -398,7 +533,7 @@ function SpecialMenu(_ref) {
 // <Button state={state} actions={actions}/>
 
 /***/ }),
-/* 8 */
+/* 9 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -479,7 +614,7 @@ function TopImg(_ref) {
 // <Button state={state} actions={actions}/>
 
 /***/ }),
-/* 9 */
+/* 10 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -521,4 +656,4 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 });
 
 /***/ })
-],[9]);
+],[10]);
