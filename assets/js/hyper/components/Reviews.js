@@ -1,9 +1,9 @@
 import { h, app } from 'hyperapp';
 
-export default function ContactUs({ state, actions }) {
+export default function Reviews({ state, actions }) {
   return (
-    <section id="ContactUs">
-      <div class="container">Contact US</div>
+    <section id="Reviews">
+      <div class="container">Reviews</div>
     </section>
   );
 }
