@@ -332,7 +332,46 @@ function Reviews(_ref) {
     (0, _hyperapp.h)(
       "div",
       { "class": "container" },
-      "Reviews"
+      (0, _hyperapp.h)(
+        "div",
+        { "class": "row" },
+        (0, _hyperapp.h)(
+          "h5",
+          { "class": "comp-title" },
+          "Reviews"
+        ),
+        (0, _hyperapp.h)(
+          "h2",
+          null,
+          "The Food Network"
+        ),
+        (0, _hyperapp.h)(
+          "h4",
+          null,
+          "\"Best Restaurant in the L.A. area!\""
+        ),
+        (0, _hyperapp.h)(
+          "p",
+          null,
+          "Lorem ipsum dolor amet seitan raw denim offal fam intelligentsia distillery. Hella coloring book fixie tumblr chillwave banjo cronut portland typewriter you probably haven't heard of them air plant. Copper mug vinyl direct trade chartreuse pop-up. 3 wolf moon normcore portland waistcoat letterpress vexillologist."
+        ),
+        (0, _hyperapp.h)(
+          "div",
+          { "class": "author" },
+          (0, _hyperapp.h)(
+            "strong",
+            null,
+            "Joe Bastiachi"
+          ),
+          " - winner of the Chef Masters"
+        ),
+        (0, _hyperapp.h)(
+          "div",
+          { "class": "arrows" },
+          (0, _hyperapp.h)("i", { "class": "fas fa-arrow-left" }),
+          (0, _hyperapp.h)("i", { "class": "fas fa-arrow-right" })
+        )
+      )
     )
   );
 }
